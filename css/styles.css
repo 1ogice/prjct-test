@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -20,18 +20,18 @@ body header {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-body header i,
-body header a {
+body header article i,
+body header article a {
   color: white;
   font-size: 20px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
-body header i:hover,
-body header a:hover {
+body header article i:hover,
+body header article a:hover {
   color: black;
 }
-body header a {
-  font-family: "Roboto", sans-serif;
+body header article a {
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
