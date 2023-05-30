@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/fontello.css" />
-    <script src="scripts.js"></script>
     <title>PRJCTR-APP</title>
   </head>
   <body>
@@ -20,6 +19,48 @@
         <i class="icon-folder-empty"></i>
       </article>
     </header>
-    <section></section>
+    <main>
+      <form action="">
+        <input id="artistInput" type="text" placeholder="Artist" />
+        <section>
+          <select name="genre" id="">
+            <option value="genre" selected disabled hidden>Genre</option>
+            <option value="jazz">Jazz</option>
+            <option value="hip-hop">Hip-Hop</option>
+            <option value="rock">Rock</option>
+            <option value="blues">Blues</option>
+            <option value="grunge">Grunge</option>
+            <option value="alternative">Alternative</option>
+            <option value="electronic">Electronic</option>
+            <option value="punk">Punk</option>
+          </select>
+          <select name="decade" id="">
+            <option value="decade" selected disabled hidden>Decade</option>
+            <option value="1950">1950-60</option>
+            <option value="1960">1960-70</option>
+            <option value="1970">1970-80</option>
+            <option value="1980">1980-90</option>
+            <option value="1990">1990-00</option>
+            <option value="2000">2000-10</option>
+            <option value="2010">2010-20</option>
+            <option value="2020">2020-30</option>
+          </select>
+        </section>
+        <select name="country" id="">
+          <option value="country" selected disabled hidden>Country</option>
+          <option value="usa">USA</option>
+          <option value="italy">Italy</option>
+          <option value="england">England</option>
+          <option value="france">France</option>
+          <option value="ukraine">Ukraine</option>
+          <option value="poland">Poland</option>
+          <option value="germany">Germany</option>
+          <option value="canada">Canada</option>
+        </select>
+        <button>Search</button>
+      </form>
+      <section></section>
+    </main>
+    <script src="scripts.js"></script>
   </body>
 </html>
