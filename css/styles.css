@@ -125,3 +125,64 @@ body main form button:hover {
   color: rgba(255, 255, 255, 0.5);
   background-color: #0a475a;
 }
+body main section {
+  margin-top: 18px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+}
+body main section article {
+  margin-bottom: 15px;
+  position: relative;
+}
+body main section article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+body main section article div i {
+  color: black;
+}
+body main section article img {
+  height: 170px;
+  width: 170px;
+  border-radius: 8px;
+}
+body main section article h1,
+body main section article h2,
+body main section article p,
+body main section article span {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+body main section article p {
+  color: #738286;
+}
+body main section article p span {
+  color: black;
+}
+body main section article button {
+  width: 170px;
+  height: 45px;
+  background-color: #083644;
+  border: none;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 16px;
+}
